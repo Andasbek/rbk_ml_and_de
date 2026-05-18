@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" font-family="Arial, sans-serif">
+  <defs>
+    <linearGradient id="srcGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5B9BD5"/>
+      <stop offset="100%" stop-color="#2E75B6"/>
+    </linearGradient>
+    <linearGradient id="dwhGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7030A0"/>
+      <stop offset="100%" stop-color="#5B1F8A"/>
+    </linearGradient>
+    <linearGradient id="rawGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C65911"/>
+      <stop offset="100%" stop-color="#A8460A"/>
+    </linearGradient>
+    <linearGradient id="ddsGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9C9C9C"/>
+      <stop offset="100%" stop-color="#6B6B6B"/>
+    </linearGradient>
+    <linearGradient id="dmGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#A07F0F"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#444"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2E75B6"/>
+    </marker>
+  </defs>
+
+  <!-- Заголовок -->
+  <text x="700" y="40" text-anchor="middle" font-size="28" font-weight="bold" fill="#1F4E79">
+    Архитектура: 5 источников данных → Хранилище данных
+  </text>
+  <text x="700" y="68" text-anchor="middle" font-size="16" fill="#555">
+    Каждый источник — независимая IT-система банка, со своей БД, своим владельцем и способом доставки данных
+  </text>
+
+  <!-- ============= СЛОЙ 1: 5 источников ============= -->
+  <text x="40" y="115" font-size="18" font-weight="bold" fill="#1F4E79">SOURCE SYSTEMS</text>
+  <text x="40" y="135" font-size="13" fill="#777">(5 отдельных БД PostgreSQL)</text>
+
+  <!-- Источник 1: CRM -->
+  <g>
+    <rect x="40" y="155" width="240" height="180" rx="10" fill="url(#srcGrad)" stroke="#1F4E79" stroke-width="2"/>
+    <text x="160" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="white">1. CRM</text>
+    <text x="160" y="205" text-anchor="middle" font-size="11" fill="#E8F1FA">DB: crm</text>
+    <line x1="60" y1="218" x2="260" y2="218" stroke="white" stroke-opacity="0.5"/>
+    <text x="160" y="238" text-anchor="middle" font-size="12" fill="white">customers</text>
+    <text x="160" y="256" text-anchor="middle" font-size="12" fill="white">customer_contacts</text>
+    <text x="160" y="274" text-anchor="middle" font-size="12" fill="white">customer_segments_history</text>
+    <line x1="60" y1="288" x2="260" y2="288" stroke="white" stroke-opacity="0.5"/>
+    <text x="160" y="306" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Владелец: розница</text>
+    <text x="160" y="322" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Real-time CDC</text>
+  </g>
+
+  <!-- Источник 2: Core Banking -->
+  <g>
+    <rect x="300" y="155" width="240" height="180" rx="10" fill="url(#srcGrad)" stroke="#1F4E79" stroke-width="2"/>
+    <text x="420" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="white">2. Core Banking</text>
+    <text x="420" y="205" text-anchor="middle" font-size="11" fill="#E8F1FA">DB: core_banking</text>
+    <line x1="320" y1="218" x2="520" y2="218" stroke="white" stroke-opacity="0.5"/>
+    <text x="420" y="238" text-anchor="middle" font-size="12" fill="white">branches</text>
+    <text x="420" y="256" text-anchor="middle" font-size="12" fill="white">accounts</text>
+    <text x="420" y="274" text-anchor="middle" font-size="12" fill="white">daily_turnovers</text>
+    <line x1="320" y1="288" x2="520" y2="288" stroke="white" stroke-opacity="0.5"/>
+    <text x="420" y="306" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Владелец: операц.блок</text>
+    <text x="420" y="322" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Микробатч (updated_at)</text>
+  </g>
+
+  <!-- Источник 3: Card System -->
+  <g>
+    <rect x="560" y="155" width="240" height="180" rx="10" fill="url(#srcGrad)" stroke="#1F4E79" stroke-width="2"/>
+    <text x="680" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="white">3. Card System</text>
+    <text x="680" y="205" text-anchor="middle" font-size="11" fill="#E8F1FA">DB: card_system</text>
+    <line x1="580" y1="218" x2="780" y2="218" stroke="white" stroke-opacity="0.5"/>
+    <text x="680" y="238" text-anchor="middle" font-size="12" fill="white">cards</text>
+    <text x="680" y="256" text-anchor="middle" font-size="12" fill="white">merchants</text>
+    <text x="680" y="274" text-anchor="middle" font-size="12" fill="white">card_blocks</text>
+    <line x1="580" y1="288" x2="780" y2="288" stroke="white" stroke-opacity="0.5"/>
+    <text x="680" y="306" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Владелец: карт.депт</text>
+    <text x="680" y="322" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Real-time</text>
+  </g>
+
+  <!-- Источник 4: Mobile App -->
+  <g>
+    <rect x="820" y="155" width="240" height="180" rx="10" fill="url(#srcGrad)" stroke="#1F4E79" stroke-width="2"/>
+    <text x="940" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="white">4. Mobile App</text>
+    <text x="940" y="205" text-anchor="middle" font-size="11" fill="#E8F1FA">DB: mobile_app</text>
+    <line x1="840" y1="218" x2="1040" y2="218" stroke="white" stroke-opacity="0.5"/>
+    <text x="940" y="238" text-anchor="middle" font-size="12" fill="white">devices</text>
+    <text x="940" y="256" text-anchor="middle" font-size="12" fill="white">sessions</text>
+    <text x="940" y="274" text-anchor="middle" font-size="12" fill="white">events</text>
+    <line x1="840" y1="288" x2="1040" y2="288" stroke="white" stroke-opacity="0.5"/>
+    <text x="940" y="306" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Владелец: digital</text>
+    <text x="940" y="322" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Kafka stream</text>
+  </g>
+
+  <!-- Источник 5: Processing -->
+  <g>
+    <rect x="1080" y="155" width="240" height="180" rx="10" fill="url(#srcGrad)" stroke="#1F4E79" stroke-width="2"/>
+    <text x="1200" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="white">5. Processing</text>
+    <text x="1200" y="205" text-anchor="middle" font-size="11" fill="#E8F1FA">DB: processing</text>
+    <line x1="1100" y1="218" x2="1300" y2="218" stroke="white" stroke-opacity="0.5"/>
+    <text x="1200" y="238" text-anchor="middle" font-size="12" fill="white">transactions</text>
+    <text x="1200" y="256" text-anchor="middle" font-size="12" fill="white">authorizations</text>
+    <text x="1200" y="274" text-anchor="middle" font-size="12" fill="white">clearing</text>
+    <line x1="1100" y1="288" x2="1300" y2="288" stroke="white" stroke-opacity="0.5"/>
+    <text x="1200" y="306" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Владелец: процессинг</text>
+    <text x="1200" y="322" text-anchor="middle" font-size="10" fill="#E8F1FA" font-style="italic">Kafka + клиринг (daily)</text>
+  </g>
+
+  <!-- Логические связи между источниками (горизонтальные пунктирные) -->
+  <g stroke="#888" stroke-width="1.5" stroke-dasharray="4,3" fill="none">
+    <line x1="280" y1="265" x2="300" y2="265"/>
+    <line x1="540" y1="265" x2="560" y2="265"/>
+    <line x1="800" y1="265" x2="820" y2="265"/>
+    <line x1="1060" y1="265" x2="1080" y2="265"/>
+  </g>
+  <text x="680" y="354" text-anchor="middle" font-size="11" fill="#666" font-style="italic">
+    логические связи: customer_id (CRM) • account_id (Core Banking) • card_id (Card System)
+  </text>
+
+  <!-- Стрелки ETL вниз -->
+  <g stroke="#2E75B6" stroke-width="2.5" fill="none" marker-end="url(#arrowBlue)">
+    <line x1="160" y1="375" x2="160" y2="445"/>
+    <line x1="420" y1="375" x2="420" y2="445"/>
+    <line x1="680" y1="375" x2="680" y2="445"/>
+    <line x1="940" y1="375" x2="940" y2="445"/>
+    <line x1="1200" y1="375" x2="1200" y2="445"/>
+  </g>
+  <text x="700" y="412" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E75B6">
+    ETL / CDC (Airflow • Debezium • Kafka Connect)
+  </text>
+
+  <!-- ============= СЛОЙ 2: RAW ============= -->
+  <text x="40" y="475" font-size="18" font-weight="bold" fill="#7030A0">DATA WAREHOUSE</text>
+  <text x="40" y="495" font-size="13" fill="#777">(единое хранилище, 3 слоя)</text>
+
+  <g>
+    <rect x="40" y="510" width="1280" height="80" rx="8" fill="url(#rawGrad)" stroke="#7C3F0E" stroke-width="2"/>
+    <text x="120" y="540" font-size="20" font-weight="bold" fill="white">RAW (bronze)</text>
+    <text x="120" y="562" font-size="12" fill="#FBE5D6">1:1 копии источников</text>
+    <line x1="270" y1="525" x2="270" y2="575" stroke="white" stroke-opacity="0.4"/>
+    <text x="290" y="535" font-size="11" fill="white">raw.crm__customers</text>
+    <text x="290" y="552" font-size="11" fill="white">raw.crm__customer_contacts</text>
+    <text x="290" y="569" font-size="11" fill="white">raw.core_banking__accounts</text>
+    <text x="510" y="535" font-size="11" fill="white">raw.core_banking__branches</text>
+    <text x="510" y="552" font-size="11" fill="white">raw.core_banking__daily_turnovers</text>
+    <text x="510" y="569" font-size="11" fill="white">raw.card_system__cards</text>
+    <text x="760" y="535" font-size="11" fill="white">raw.card_system__merchants</text>
+    <text x="760" y="552" font-size="11" fill="white">raw.mobile_app__sessions</text>
+    <text x="760" y="569" font-size="11" fill="white">raw.mobile_app__events</text>
+    <text x="1000" y="535" font-size="11" fill="white">raw.processing__transactions</text>
+    <text x="1000" y="552" font-size="11" fill="white">raw.processing__authorizations</text>
+    <text x="1000" y="569" font-size="11" fill="white">raw.processing__clearing</text>
+  </g>
+
+  <!-- Стрелка к DDS -->
+  <line x1="700" y1="600" x2="700" y2="635" stroke="#2E75B6" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <text x="720" y="623" font-size="12" fill="#2E75B6" font-weight="bold">очистка, нормализация</text>
+
+  <!-- ============= СЛОЙ 3: DDS ============= -->
+  <g>
+    <rect x="40" y="650" width="1280" height="80" rx="8" fill="url(#ddsGrad)" stroke="#3F3F3F" stroke-width="2"/>
+    <text x="120" y="680" font-size="20" font-weight="bold" fill="white">DDS (silver)</text>
+    <text x="120" y="702" font-size="12" fill="#E0E0E0">Data Vault / 3NF</text>
+    <line x1="270" y1="665" x2="270" y2="715" stroke="white" stroke-opacity="0.4"/>
+    <text x="290" y="678" font-size="11" fill="white">hub_customer  ←──  объединяет customer_id из всех 5 источников</text>
+    <text x="290" y="697" font-size="11" fill="white">hub_account   ←──  объединяет account_id из Core Banking и Processing</text>
+    <text x="290" y="715" font-size="11" fill="white">link_customer_account • link_account_transaction • link_card_account • sat_customer_details</text>
+  </g>
+
+  <line x1="700" y1="740" x2="700" y2="775" stroke="#2E75B6" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <text x="720" y="763" font-size="12" fill="#2E75B6" font-weight="bold">агрегаты, бизнес-логика</text>
+
+  <!-- ============= СЛОЙ 4: DM ============= -->
+  <g>
+    <rect x="40" y="790" width="1280" height="80" rx="8" fill="url(#dmGrad)" stroke="#806400" stroke-width="2"/>
+    <text x="120" y="820" font-size="20" font-weight="bold" fill="white">DM (gold)</text>
+    <text x="120" y="842" font-size="12" fill="#FFEEBB">витрины для BI и риск-аналитики</text>
+    <line x1="270" y1="805" x2="270" y2="855" stroke="white" stroke-opacity="0.4"/>
+    <text x="290" y="820" font-size="12" fill="white">dm.customer_360 — единое окно по клиенту: счета + карты + активность в моб.банке + транзакции</text>
+    <text x="290" y="840" font-size="12" fill="white">dm.daily_turnover — обороты по клиенту/счёту/дате</text>
+    <text x="290" y="860" font-size="12" fill="white">dm.fraud_detection — подозрительные операции (на основе processing + mobile_app)</text>
+  </g>
+</svg>

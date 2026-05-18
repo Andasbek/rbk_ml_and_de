@@ -1,0 +1,16 @@
+rule_id,rule_code,rule_name,severity,description,is_active
+1,RULE_LARGE_AMT,Крупная сумма (>10М тг),high,Транзакция выше 10 000 000 KZT,True
+2,RULE_RAPID_MOVEMENT,Серия быстрых переводов,medium,≥5 транзакций за 10 минут,True
+3,RULE_HIGH_RISK_CTR,Контрагент в high-risk стране,high,Перевод в санкционные юрисдикции,True
+4,RULE_NIGHT_HOURS,Транзакции ночью,low,Между 00:00 и 05:00,True
+5,RULE_NEW_CUST_BIG,Крупная сумма у нового клиента,high,Клиент <30 дней + сумма >1М,True
+6,RULE_GAMBLING,MCC 7995 (gambling),medium,Авторизация в gambling-категории,True
+7,RULE_ATM_BURST,Серия снятий в банкомате,medium,≥3 ATM снятия за час,True
+8,RULE_DORMANT_WAKE,Пробуждение спящего счёта,medium,Счёт без операций >180 дней,True
+9,RULE_ROUND_AMT,Подозрительно круглая сумма,low,Сумма кратна 100 000,True
+10,RULE_SAME_DEV_MULTI,Одно устройство — много клиентов,high,≥3 customer_id на одном device,True
+11,RULE_FAILED_LOGIN,Серия неудачных входов,medium,≥5 fail логинов за 10 минут,True
+12,RULE_VELOCITY,Высокая скорость по карте,high,Авторизации в разных городах <1ч,True
+13,RULE_STRUCTURING,Структурирование,high,Дробление крупной суммы,True
+14,RULE_PEP,Politically Exposed Person,high,Клиент в PEP-списке,True
+15,RULE_FOREIGN_FX,Подозрительный FX,medium,Конверсия >50К USD/день,True

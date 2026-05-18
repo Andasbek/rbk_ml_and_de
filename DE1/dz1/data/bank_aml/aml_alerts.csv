@@ -1,0 +1,44 @@
+alert_id,monitor_id,rule_id,alert_datetime,severity,assigned_officer,status,sar_filed,closed_at
+1,52,1,2025-09-05 04:22:47,high,A.Ivanov,open,False,
+2,52,4,2025-09-05 04:25:47,low,S.Smirnova,false_positive,False,2025-09-08 04:16:47
+3,55,1,2025-11-13 23:13:16,high,R.Mukan,false_positive,False,2025-11-18 22:43:16
+4,120,4,2025-07-21 04:31:17,low,A.Ivanov,open,False,
+5,120,3,2025-07-21 04:19:17,high,A.Ivanov,false_positive,False,2025-08-04 04:09:17
+6,123,4,2025-08-21 03:55:12,low,R.Mukan,open,False,
+7,123,3,2025-08-21 03:45:12,high,K.Auelbek,closed_SAR_filed,True,2025-08-30 03:40:12
+8,348,1,2025-08-23 05:12:29,high,D.Bekov,closed_SAR_filed,True,2025-08-26 04:53:29
+9,348,4,2025-08-23 04:55:29,low,R.Mukan,closed_SAR_filed,True,2025-08-26 04:53:29
+10,401,4,2025-12-05 05:23:24,low,R.Mukan,open,False,
+11,401,3,2025-12-05 05:21:24,high,A.Ivanov,open,False,
+12,465,1,2025-12-01 02:08:28,high,R.Mukan,open,False,
+13,465,4,2025-12-01 02:01:28,low,R.Mukan,false_positive,False,2025-12-05 01:47:28
+14,555,4,2025-08-26 03:17:02,low,R.Mukan,open,False,
+15,555,3,2025-08-26 03:30:02,high,D.Bekov,false_positive,False,2025-09-04 03:16:02
+16,649,1,2025-08-28 09:56:53,high,S.Smirnova,open,False,
+17,814,4,2025-08-29 03:44:36,low,K.Auelbek,false_positive,False,2025-09-11 03:38:36
+18,814,3,2025-08-29 03:39:36,high,A.Ivanov,false_positive,False,2025-09-06 03:38:36
+19,890,1,2025-09-20 22:33:18,high,A.Ivanov,open,False,
+20,920,4,2025-08-23 00:19:19,low,K.Auelbek,open,False,
+21,920,3,2025-08-23 00:32:19,high,K.Auelbek,false_positive,False,2025-09-01 00:13:19
+22,955,4,2025-12-29 01:58:22,low,R.Mukan,open,False,
+23,955,3,2025-12-29 02:11:22,high,R.Mukan,false_positive,False,2026-01-10 01:42:22
+24,1169,1,2025-07-10 18:26:55,high,K.Auelbek,closed_SAR_filed,True,2025-07-24 18:24:55
+25,1185,1,2025-07-22 18:44:24,high,S.Smirnova,closed_SAR_filed,True,2025-07-26 18:34:24
+26,1478,4,2025-08-10 05:00:45,low,R.Mukan,false_positive,False,2025-08-22 04:49:45
+27,1478,3,2025-08-10 05:14:45,high,K.Auelbek,closed_SAR_filed,True,2025-08-12 04:49:45
+28,1488,1,2025-11-10 22:20:13,high,A.Ivanov,open,False,
+29,1517,4,2025-10-11 04:29:22,low,R.Mukan,false_positive,False,2025-10-15 04:14:22
+30,1517,3,2025-10-11 04:38:22,high,D.Bekov,closed_SAR_filed,True,2025-10-17 04:14:22
+31,1552,4,2025-08-05 01:53:49,low,A.Ivanov,open,False,
+32,1552,3,2025-08-05 01:38:49,high,R.Mukan,false_positive,False,2025-08-13 01:26:49
+33,1555,1,2025-10-30 15:30:33,high,D.Bekov,open,False,
+34,1555,3,2025-10-30 15:34:33,high,S.Smirnova,open,False,
+35,1572,1,2025-12-29 14:52:32,high,D.Bekov,open,False,
+36,1617,1,2025-11-22 06:47:09,high,R.Mukan,false_positive,False,2025-12-04 06:38:09
+37,1836,1,2025-07-19 12:25:44,high,A.Ivanov,closed_SAR_filed,True,2025-07-31 12:11:44
+38,1865,4,2025-12-06 02:51:56,low,R.Mukan,closed_SAR_filed,True,2025-12-20 02:39:56
+39,1865,3,2025-12-06 02:47:56,high,K.Auelbek,closed_SAR_filed,True,2025-12-16 02:39:56
+40,1885,4,2025-09-07 01:08:36,low,A.Ivanov,open,False,
+41,1885,3,2025-09-07 01:16:36,high,D.Bekov,open,False,
+42,1994,1,2025-11-10 03:39:23,high,A.Ivanov,false_positive,False,2025-11-11 03:15:23
+43,1994,4,2025-11-10 03:44:23,low,D.Bekov,false_positive,False,2025-11-13 03:15:23

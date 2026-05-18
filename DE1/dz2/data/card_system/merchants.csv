@@ -1,0 +1,101 @@
+merchant_id,merchant_name,mcc,category,city,country
+1,"НПО «Борисова, Филатов и Иванов»",5812,restaurant,Aktobe,KZ
+2,АО «Горбачев»,5732,electronics,Astana,KZ
+3,ОАО «Белоусов-Лукина»,5732,electronics,Pavlodar,KZ
+4,РАО «Давыдов Уваров»,5912,pharmacy,Karaganda,KZ
+5,НПО «Крылова Савельев»,5812,restaurant,Oskemen,KZ
+6,АО «Максимов»,5999,other,Semey,KZ
+7,Новотранс,5732,electronics,Taraz,KZ
+8,Евроцемент груп,5912,pharmacy,Almaty,KZ
+9,АО «Гущина-Шашкова»,7995,gambling,Almaty,KZ
+10,НПО «Третьяков-Трофимов»,4111,transport,Atyrau,KZ
+11,ЗАО «Сазонова»,5999,other,Oskemen,KZ
+12,Лента,7995,gambling,Semey,KZ
+13,"ОАО «Дроздова, Нестерова и Михеев»",7995,gambling,Shymkent,KZ
+14,ООО «Фадеев»,7995,gambling,Oskemen,KZ
+15,ИП «Захаров Князев»,5812,restaurant,Aktobe,KZ
+16,Зимин Инкорпорэйтед,5812,restaurant,Taraz,KZ
+17,ФСК Лидер,5999,other,Oskemen,KZ
+18,НПО «Лаврентьев-Копылова»,4111,transport,Aktobe,KZ
+19,"ИП «Николаев, Максимов и Зимин»",5411,grocery,Almaty,KZ
+20,ГК Агропромкомплектация,4111,transport,Atyrau,KZ
+21,НПО «Некрасова Калинина»,4111,transport,Aktobe,KZ
+22,Никитина Инк,4111,transport,Atyrau,KZ
+23,ООО «Орехова»,5411,grocery,Astana,KZ
+24,ОАО «Филатова-Шарова»,4111,transport,Aktobe,KZ
+25,НПО «Воронова Уварова»,5732,electronics,Shymkent,KZ
+26,"ЗАО «Доронина, Аксенов и Колесников»",5912,pharmacy,Oskemen,KZ
+27,НПО «Беспалов Суворов»,5411,grocery,Astana,KZ
+28,ИП «Осипов Петухов»,5732,electronics,Astana,KZ
+29,Сысоева и партнеры,7995,gambling,Taraz,KZ
+30,Зерно-трейд,5541,fuel,Almaty,KZ
+31,ОАО «Фомичева Воронцова»,7995,gambling,Astana,KZ
+32,Суворов Групп,4900,utility,Oskemen,KZ
+33,ОАО «Пахомова Гурьева»,7995,gambling,Oskemen,KZ
+34,НПО «Давыдова Казаков»,5999,other,Pavlodar,KZ
+35,ИП «Назарова Королева»,5541,fuel,Shymkent,KZ
+36,РАО «Богданов Абрамов»,5912,pharmacy,Taraz,KZ
+37,ООО «Фокин Муравьева»,5999,other,Oskemen,KZ
+38,Дикси Групп,4111,transport,Pavlodar,KZ
+39,ЗАО «Исакова»,5812,restaurant,Pavlodar,KZ
+40,Ефремов Инкорпорэйтед,5411,grocery,Atyrau,KZ
+41,НПК Объединенная вагонная компания,5541,fuel,Astana,KZ
+42,РАО «Исаков-Панфилова»,4111,transport,Karaganda,KZ
+43,"РАО «Лукин, Афанасьев и Щербаков»",5812,restaurant,Karaganda,KZ
+44,ОАО «Карпов Колесникова»,4111,transport,Shymkent,KZ
+45,ООО «Егорова»,7995,gambling,Karaganda,KZ
+46,Лаврентьева Лтд,4900,utility,Semey,KZ
+47,ЗАО «Шилов Гурьев»,4111,transport,Karaganda,KZ
+48,"ООО «Наумова, Кондратьева и Сергеев»",5411,grocery,Oskemen,KZ
+49,ИП «Веселова Туров»,5411,grocery,Astana,KZ
+50,Егорова Инк,5912,pharmacy,Astana,KZ
+51,НПО «Быков-Бобылев»,4111,transport,Semey,KZ
+52,ЗАО «Богданова»,5999,other,Atyrau,KZ
+53,Мособлгаз,4900,utility,Semey,KZ
+54,Группа Илим,5411,grocery,Karaganda,KZ
+55,"НПО «Сергеева, Александрова и Мамонтов»",5912,pharmacy,Shymkent,KZ
+56,Морозов Лимитед,5912,pharmacy,Astana,KZ
+57,Продимекс-Холдинг,4111,transport,Aktobe,KZ
+58,ИП «Кулакова-Кудряшова»,7995,gambling,Semey,KZ
+59,ИП «Елисеев-Архипова»,4111,transport,Aktobe,KZ
+60,ГК Эфко,5541,fuel,Oskemen,KZ
+61,ИП «Смирнова»,5411,grocery,Taraz,KZ
+62,Корпорация Электросевкавмонтаж,5999,other,Almaty,KZ
+63,НПО «Белоусова Денисова»,5912,pharmacy,Almaty,KZ
+64,НПО «Савин Семенов»,4900,utility,Astana,KZ
+65,АО «Савельева-Калинин»,5732,electronics,Pavlodar,KZ
+66,Группа Эссен,5411,grocery,Astana,KZ
+67,ООО «Силина Кондратьева»,5411,grocery,Atyrau,KZ
+68,Гордеев Лтд,7995,gambling,Semey,KZ
+69,Владимиров Лтд,4900,utility,Shymkent,KZ
+70,ИП «Мухина Блохина»,5732,electronics,Aktobe,KZ
+71,ЗАО «Кузьмина Котов»,5541,fuel,Astana,KZ
+72,УГС,5541,fuel,Karaganda,KZ
+73,АО «Данилова»,4900,utility,Karaganda,KZ
+74,"ЗАО «Сазонова, Фролова и Колобов»",5411,grocery,Karaganda,KZ
+75,Первый завод,5541,fuel,Almaty,KZ
+76,ООО «Родионов Сорокин»,7995,gambling,Astana,KZ
+77,ДК Рус,4111,transport,Semey,KZ
+78,АО «Суханов»,5541,fuel,Aktobe,KZ
+79,ЗАО «Соловьева»,4111,transport,Atyrau,KZ
+80,ОАО «Герасимова-Муравьева»,5541,fuel,Almaty,KZ
+81,НМЖК,4900,utility,Pavlodar,KZ
+82,ОАО «Владимиров-Логинова»,5732,electronics,Karaganda,KZ
+83,ООО «Карпова»,5812,restaurant,Pavlodar,KZ
+84,Группа УГМК,5912,pharmacy,Astana,KZ
+85,ИП «Лебедев Вишняков»,5732,electronics,Shymkent,KZ
+86,"НПО «Носова, Сазонова и Чернова»",5732,electronics,Karaganda,KZ
+87,Мосметрострой,5999,other,Shymkent,KZ
+88,"ООО «Громова, Наумова и Богданов»",5812,restaurant,Aktobe,KZ
+89,"ООО «Фомичев, Третьяков и Кириллов»",5732,electronics,Shymkent,KZ
+90,"НПО «Фокин, Герасимов и Фадеева»",7995,gambling,Astana,KZ
+91,ОАО «Яковлева-Борисова»,7995,gambling,Karaganda,KZ
+92,Метрострой,5999,other,Aktobe,KZ
+93,"АО «Бобров, Баранова и Пономарева»",5541,fuel,Almaty,KZ
+94,ООО «Сидорова-Борисов»,5812,restaurant,Aktobe,KZ
+95,Газпром,5411,grocery,Atyrau,KZ
+96,ЗАО «Агафонов Фомин»,4900,utility,Taraz,KZ
+97,АО «Зиновьева-Субботин»,5812,restaurant,Pavlodar,KZ
+98,"АО «Тимофеев, Ершов и Кулагин»",5411,grocery,Pavlodar,KZ
+99,ЗАО «Потапова-Брагин»,4111,transport,Taraz,KZ
+100,ООО «Доронин Капустин»,5732,electronics,Karaganda,KZ

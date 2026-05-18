@@ -1,0 +1,14 @@
+-- INSERTs для источника core_banking, таблица core.branches
+SET search_path TO core;
+TRUNCATE branches RESTART IDENTITY CASCADE;
+INSERT INTO branches(branch_id,branch_code,branch_name,city,address,opened_date,is_active) VALUES
+(1,'BR0001','Atyrau филиал 1','Atyrau','бул. Степной, д. 78 к. 4','2011-05-10',TRUE),
+(2,'BR0002','Almaty филиал 2','Almaty','алл. Ватутина, д. 2/7 стр. 7','2019-08-22',TRUE),
+(3,'BR0003','Karaganda филиал 3','Karaganda','пер. Запрудный, д. 400 стр. 1/1','2016-07-30',TRUE),
+(4,'BR0004','Almaty филиал 4','Almaty','ул. Высоковольтная, д. 9/1 к. 7/4','2016-08-23',TRUE),
+(5,'BR0005','Astana филиал 5','Astana','ул. ДОС, д. 498','2011-11-07',TRUE),
+(6,'BR0006','Almaty филиал 6','Almaty','пер. Поперечный, д. 86 к. 9','2019-01-13',TRUE),
+(7,'BR0007','Karaganda филиал 7','Karaganda','ш. Специалистов, д. 79 к. 1','2017-03-02',TRUE),
+(8,'BR0008','Almaty филиал 8','Almaty','ш. Лунное, д. 6 к. 6/8','2011-08-10',TRUE),
+(9,'BR0009','Taraz филиал 9','Taraz','пр. Ермака, д. 6/5','2011-07-09',TRUE),
+(10,'BR0010','Almaty филиал 10','Almaty','ш. Приморское, д. 579','2016-10-27',TRUE);
